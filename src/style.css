@@ -1,0 +1,118 @@
+html,
+body,
+pre,
+code,
+kbd,
+samp {
+  font-family: 'Press Start 2P';
+}
+.buttons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  min-width: 400px;
+  flex-wrap: wrap;
+}
+.button {
+  width: 150px;
+  height: 50px;
+}
+.mx {
+  padding: 30px;
+  margin: 30px;
+}
+.white-container {
+  margin: 10px 10px;
+}
+.heart {
+  width: 10px !important;
+  height: 10px !important;
+}
+.min-h {
+  min-height: 100vh;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 320px) {
+  .container-flex {
+    font-size: 12px;
+  }
+  .btn-flex button img {
+    width: 15px;
+    height: 15px;
+  }
+  .buttons {
+    gap: 5px;
+  }
+  .buttons button {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .container-flex {
+    font-size: 18px;
+  }
+  .btn-flex button img {
+    width: 15px;
+    height: 15px;
+  }
+  .buttons {
+    gap: 5px;
+  }
+  .buttons button {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container-flex {
+    font-size: 14px;
+  }
+  .btn-flex button img {
+    width: 20px;
+    height: 20px;
+  }
+  .buttons {
+    gap: 1px;
+  }
+  .buttons button {
+    width: 28px;
+    height: 28px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .container-flex {
+    font-size: 12px;
+  }
+  .btn-flex button img {
+    width: 15px;
+    height: 15px;
+  }
+  .buttons {
+    gap: 10px;
+  }
+  .buttons button {
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
